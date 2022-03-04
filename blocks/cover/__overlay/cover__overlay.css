@@ -1,8 +1,11 @@
 .cover__overlay {
   width: 100%;
-  z-index: 0;
-  opacity: .3;
+  height: auto;
+  background-image: url("/images/cover-trains.jpg");
+  object-fit: contain;
 }
 
-
+.cover__overlay::before {
+  opacity: 0.3;
+}
 
