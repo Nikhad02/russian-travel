@@ -1,11 +1,22 @@
 .cover__overlay {
   width: 100%;
   height: auto;
-  background-image: url("/images/cover-trains.jpg");
+  background-image: url(../../../images/cover-trains.jpg);
   object-fit: contain;
+  background-position: center;
+  background-size: cover;
 }
 
 .cover__overlay::before {
-  opacity: 0.3;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
 }
+
+
 
