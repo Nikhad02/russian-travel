@@ -2,5 +2,11 @@
   font-size: 18px;
   line-height: 122%;
   text-align: center;
-  margin: 32px 412px 0;
+  z-index: 2;
+  position: absolute;
+  bottom: 254px;
+  left: 412px;
+  max-width: 360px;
+  max-height: 66px;
+  margin: 32px 0 0;
 }
