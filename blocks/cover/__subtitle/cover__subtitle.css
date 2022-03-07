@@ -6,7 +6,9 @@
   position: absolute;
   bottom: 254px;
   left: 412px;
+  top: 429px;
   max-width: 360px;
   max-height: 66px;
-  margin: 32px 0 0;
+  margin: 0;
+  pointer-events: none;
 }
