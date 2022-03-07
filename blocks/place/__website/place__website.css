@@ -4,3 +4,10 @@
   max-height: 46px;
   align-self: end;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__website {
+    max-width: 456px;
+    margin: 0;
+  }
+}

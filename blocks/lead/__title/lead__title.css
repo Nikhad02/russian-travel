@@ -3,5 +3,17 @@
   line-height: 100px;
   text-align: center;
   font-weight: 900;
-  margin: 0;
+  margin: 0 132px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    margin: 0 104px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    margin: 0 24px;
+  }
 }

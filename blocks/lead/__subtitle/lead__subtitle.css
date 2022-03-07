@@ -5,3 +5,15 @@
   font-size: 30px;
   line-height: 36px;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    margin: 32px 144px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    margin: 32px 64px 0;
+  }
+}
