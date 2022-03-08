@@ -1,7 +1,14 @@
 .cover__overlay {
   width: 100%;
-  height: auto;
-
+  background-image: url(../../../images/cover-trains.jpg);
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
 }
 
 .cover__overlay::before {
